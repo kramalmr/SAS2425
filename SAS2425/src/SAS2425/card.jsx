@@ -3,7 +3,7 @@ export function card ({name, price, description, imageUrl}) {
         <div className="card">
             <img src={imageUrl} alt={name} />
             <h2>{name}</h2>
-            <p>{price}</p>
+            <p className="price">{price}</p>
             <p>{description}</p>
         </div>
     );
